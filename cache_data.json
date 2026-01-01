@@ -1,0 +1,25 @@
+{
+    "capacity": 3,
+    "hits": 5,
+    "misses": 2,
+    "cache": [
+        {
+            "key": "C",
+            "value": "300",
+            "ttl": null,
+            "timestamp": 1704350000.123
+        },
+        {
+            "key": "B",
+            "value": "200",
+            "ttl": 10,
+            "timestamp": 1704350010.456
+        },
+        {
+            "key": "A",
+            "value": "100",
+            "ttl": null,
+            "timestamp": 1704350020.789
+        }
+    ]
+}

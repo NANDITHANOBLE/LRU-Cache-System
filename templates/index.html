@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LRU Cache</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>🔄 LRU Cache System</h2>
+
+    <input type="text" id="key" placeholder="Enter Key">
+    <input type="text" id="value" placeholder="Enter Value">
+
+    <div class="buttons">
+        <button onclick="put()">PUT</button>
+        <button onclick="get()">GET</button>
+        <button onclick="remove()">DELETE</button>
+    </div>
+
+    <p id="message"></p>
+
+    <h3>Cache (MRU → LRU)</h3>
+    <ul id="cacheList"></ul>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
