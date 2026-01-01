@@ -53,12 +53,9 @@ The project also includes a **Flask-based web interface** that allows users to i
 - Automated test cases
 
 ---
-
 ## 🏗️ System Architecture
 
-```
-
-User Interface (HTML, CSS, JS)
+User Interface (HTML, CSS, JavaScript)
 ↓
 Flask API
 ↓
@@ -66,33 +63,30 @@ LRU Cache (DLL + HashMap)
 ↓
 JSON Storage
 
-```
+yaml
+
 
 ---
 
 ## 📁 Folder Structure
 
-```
-
 LRU_Cache_Project/
 │
-├── app.py                 # Flask backend
-├── lru_cache.py           # LRU Cache logic
-├── node.py                # Doubly Linked List node
-├── utility.py             # JSON save/load helpers
-├── cache_data.json        # Persistent cache storage
-├── test.py                # Test cases
+├── app.py # Flask backend
+├── lru_cache.py # LRU Cache logic
+├── node.py # Doubly Linked List node
+├── utility.py # JSON save/load helpers
+├── cache_data.json # Persistent cache storage
+├── test_cases.py # Test cases
 │
 ├── templates/
-│   └── index.html         # Frontend HTML
+│ └── index.html # Frontend HTML
 │
 ├── static/
-│   ├── style.css          # Styling
-│   └── script.js          # Client-side logic
+│ ├── style.css # Styling
+│ └── script.js # Client-side logic
 │
 └── README.md
-
-````
 
 ---
 
