@@ -204,7 +204,7 @@ Space Complexity: **O(N)**
 
 ---
 
-## 🎓 Interview Explanation
+## 🎓 Explanation
 
 > “This project uses a Doubly Linked List and HashMap to implement an LRU Cache with constant-time operations. It also includes a Flask-based web interface, persistence using JSON, and advanced features like TTL and cache statistics.”
 
